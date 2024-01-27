@@ -1,4 +1,4 @@
-# Gold-Snap-Potential
+# Gold-SNAP-Potential
 Repository to store files related to creating a spectral neighbor analysis potential for gold using the fitSNAP software.
 
 In this repository you will find all of the files necessary to fit a machine learning interactomic potential for gold using
