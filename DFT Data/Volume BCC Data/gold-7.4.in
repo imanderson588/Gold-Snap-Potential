@@ -1,0 +1,31 @@
+&CONTROL
+   tprnfor          = .true.
+   disk_io          = 'low'
+   pseudo_dir       = './'
+/
+&SYSTEM
+   ibrav            = 3
+   celldm(1)        = 7.4
+   ecutwfc          = 50
+   occupations      = 'smearing'
+   degauss          = 0.002
+   smearing         = 'gauss'
+   ntyp             = 1
+   nat              = 2
+/
+&electrons
+conv_thr = 1.0d-9,
+/
+&ions
+/
+&cell
+/
+ATOMIC_SPECIES
+Au 196.96657 Au.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal  
+Au 0.00 0.00 0.00
+Au 0.50 0.50 0.50
+ 
+K_POINTS automatic
+12 12 12 0 0 0
+
