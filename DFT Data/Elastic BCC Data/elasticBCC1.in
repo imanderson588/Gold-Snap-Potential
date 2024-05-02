@@ -1,0 +1,37 @@
+&CONTROL
+   tprnfor          = .true.
+   disk_io          = 'low'
+   pseudo_dir       = './'
+/
+&SYSTEM
+   ecutwfc          = 50
+   occupations      = 'smearing'
+   degauss          = 0.002
+   smearing         = 'gauss'
+   ntyp             = 1
+   nat              = 2
+   ibrav            = 0
+/
+&ELECTRONS
+/
+&IONS
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+Au 196.966569 Au.pbe-n-kjpaw_psl.1.0.0.UPF
+
+K_POINTS automatic
+12 12 12  0 0 0
+
+CELL_PARAMETERS angstrom
+6.272394 0.001976 0.00439
+0.000816 6.268323 0.002106
+0.004035 0.000774 6.279154
+
+ATOMIC_POSITIONS angstrom
+Au 0.00 0.00 0.00 
+Au 3.124333554 3.124333554 3.124333554
+ 
+
