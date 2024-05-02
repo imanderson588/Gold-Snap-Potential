@@ -1,0 +1,5 @@
+Volume BCC 6.0 not converted because of error.
+Only Fede files used in VolumeFCC
+GSS nos done because different names
+Elastic (alone) not done because only .in, new elastic indeed converted
+Surface deleated because it was old version of Fede's calculation
